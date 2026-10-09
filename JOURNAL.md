@@ -10,16 +10,26 @@
 
 | Week | Tier | Hours logged | Entries |
 | --- | --- | --- | --- |
-| Week 1 | Tier 1 | 1.4h | 1 |
+| Week 1 | Tier 1 | 1.6h | 1 |
 
 ## Contents
 
-1. [2026-10-09 – Work session](#2026-10-09-work-session)
+1. [2026-10-09 – Today was my first day working on Half Life as I've been really busy recently, but I was very excited to get started!](#2026-10-09-today-was-my-first-day-working-on-half-life-as-iv)
 
 ## Design
 
-### 2026-10-09 – Work session
+### 2026-10-09 – Today was my first day working on Half Life as I've been really busy recently, but I was very excited to get started!
 
-**1.4h**
+**1.6h**
+
+Today was my first day working on Half Life as I've been really busy recently, but I was very excited to get started!
+
+I read through the Half Life instructions, installed KiCad (as well as all the folders in the week 1 care package) and got to work. I have never worked with pcbs before, but the tutorial was really easy to follow. I made all the parts as directed in the schematic editor, (as seen below in the first image) then opened up the pcb editor. That's when things started to get tricky. Everything needs to be routed together for it to work, but it's a lot of connections that can't cross each other and it turned messy pretty fast. Finally, when I thought I'd cabled everything together like the reference photo, I realized that I'd only actually done a portion of it. I'd left maybe half of the connectors just sitting there, because what I didn't realize was that the photo seemed to have connected everything in multiple layers to allow all the cables to cross over each other. The github mentioned something about a GND pour, but I tried that using the provided video tutorial and it didn't seem to work. It also took a really long time to outline since I was making a circle shape, so I switched to a square for easier use. My goal for next time is to figure out how to make the layers and to finish routing my pcb, with a bonus for figuring out how to do it as a circle since my goal is to make a circular pcb that I can encase in a 3D printed shell to make a little planet keychain!
+
+My progress in the schematic editor:
+![Screenshot 2026-10-09 140539](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/dFzFUhCcKmaw8Zuhg60Jet6VnSvHw5jp/03c3ce1d0d165742993d5bff0a2f425765ed130cdd617f1b422dbce78cffadee.png)
+
+Where I left of with my routing:
+![Screenshot 2026-10-09 140454](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/dFzFUhCcKmaw8Zuhg60Jet6VnSvHw5jp/6ee908b24bcbe3ba3530a5d295288f4c6ccd55ab074a386db32ca5a2c2333d7a.png)
 
 [Timelapse](https://lookout.hackclub.com/api/media/2b375d8b-5f93-404d-958c-a4573b54243b/video.mp4)
