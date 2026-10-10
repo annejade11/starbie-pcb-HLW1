@@ -15,7 +15,7 @@
 ## Contents
 
 1. [2026-10-09 – Today was my first day working on Half Life as I've been really busy recently, but I was very excited to get started!](#2026-10-09-today-was-my-first-day-working-on-half-life-as-iv)
-2. [2026-10-10 – Work session](#2026-10-10-work-session)
+2. [2026-10-10 – I really wanted to finish this project before the end of the day, and I'm so glad I did! Or at least part of it—I got through the routing, which was the hard part for sure. I was totally stuck on the](#2026-10-10-i-really-wanted-to-finish-this-project-before-the)
 
 ## Design
 
@@ -37,8 +37,30 @@ I read through the Half Life instructions, installed KiCad (as well as all the f
 
 [Timelapse](https://lookout.hackclub.com/api/media/2b375d8b-5f93-404d-958c-a4573b54243b/video.mp4)
 
-### 2026-10-10 – Work session
+### 2026-10-10 – I really wanted to finish this project before the end of the day, and I'm so glad I did! Or at least part of it—I got through the routing, which was the hard part for sure. I was totally stuck on the
 
 **0.73h**
+
+I really wanted to finish this project before the end of the day, and I'm so glad I did! Or at least part of it—I got through the routing, which was the hard part for sure. I was totally stuck on the connections that seemed to be on different layers, until I realized the pcb actually has two main layers, and I just needed to edit the other layer to add that missing connection.  That still didn't fix all my errors though, but I was able to join a Slack call on the #half-life channel for about an hour and that was super helpful (this is the 0.5 hours I logged outside of lapse because I didn't work the whole call but I did do a lot of edits to the pcb as I figured things out)! A very kind community member helped teach me some of the basics of pcbs, so here's a bit of what I learned:
+
+- A pcb has two sides, a front, and a back. These are the two layers I was seeing in my editor, and you can solder or connect things on both sides.
+- There are two main kinds of pcb parts, through parts and parts that are only on one side of the pcb. Through parts are basically holes in the pcb, so they can connect electrical signals from one side to the other.
+- While it's gotten easier to do in the modern day, you should avoid 90 degree routing.
+- A ground pour (which I had previously made without understanding what it was) is kind of like a layer of copper. You only want to do it on one side of the pcb, because it's all you need and otherwise you'd be wasting copper. It can connect all the GND ports so you don't actually have to wire them (this is only for the ones that are through parts though).
+- The USB input on the main Xiao piece needs to be outside the edge cut, because that's where you're going to plug in your device. If you leave it inside your pcb, you won't be able to access it or charge your device.
+
+This may seem like really basic stuff to anyone who knows what they're doing, but when I tell you I had never touched a piece of hardware ever before this, I mean it. I'm starting from zero over here, but hey, we all have to start somewhere right?
+
+While I wasn't able to get everything solved, the whole info session was incredible because, up until this point, I had no idea what I was doing since the tutorial didn't describe how any of the stuff I was designing actually worked (if anyone who worked on the Starbie tutorial is reading this, that would be a helpful thing to add for beginners). That combined with a little googling, I realized that the GND ports actually automatically link to a GND pour as long as the tag or name is the same, so I was able to FINALLY finish the routing without any more issues. Here's a photo:
+
+![Screenshot 2026-10-09 223942](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/dFzFUhCcKmaw8Zuhg60Jet6VnSvHw5jp/40a9f87513b9c060592aa25b5b8fcf03fe3bbbb8be4d4f2021ec0992d7194bf3.png)
+
+I'm so glad it's finally done! It stayed a rectangle because the circle really was just too painful for GND pours and I had to redo the pours constantly (a lot of trial and error on this one). Also, with a circle I would be worried about accessing the USB port, but maybe this is something that can still be done and the port just has to stick out a little as opposed to all the way? I'll look into it later, maybe after finishing the rest of the project. I was also able to view my PCB in 3D for the first time, and would you look at that!
+
+![Screenshot 2026-10-09 223958](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/dFzFUhCcKmaw8Zuhg60Jet6VnSvHw5jp/9cf0e63a76075b58fa84a516c3f9162a99285c9a5a6972443fa5df3d5a8da05b.png)
+
+Combining this with what I learned, I understand which parts are through holes, which parts are on the front, which parts are on the back... I feel like I'm learning a lot which is absolutely what I came here for. I think it would have taken me a long time to finally get to learning this stuff on my own so Half Life has been a great opportunity.
+
+Can't wait to keep going (tomorrow though because I am very tired right now and I need sleep)!
 
 [Timelapse](https://lookout.hackclub.com/api/media/891f1d09-5067-4e2c-829e-cc672b8b894b/video.mp4)
