@@ -96,6 +96,30 @@ I still need to find a name for the sprite, but that can be a later problem (alo
 
 The next step after the PCB was to design an awesome case!
 
-I used onshape to CAD this as it's the only CAD platform I'm familiar with. Honestly, it took less time than I thought it would! I wanted to make a small planet keychain
+I used onshape to CAD this as it's the only CAD platform I'm familiar with (besides Blender but I'm really just learning the basics on that one). Honestly, it took less time than I thought it would. I wanted to make a small planet keychain so that I could hang the PCB off my school bag or something like that. The main issues with that were the screen and the USB outlet. Since the planet is a sphere, it would either need to be really big to fit the screen on the flattest part (the center/widest point) or it would need a cutout/hole to view the screen through. The usb outlet also had to remain accessible. While I tried the cutout option, I really didn't like how thick it ended up being - it was like a 25mm hole/tube thing just to see the screen. Instead, I opted for just not showing the screen at all. I made the keychain two pieces and hollowed out the center so that I can attach the pcb inside. Then, whenever I want to check on it, I open up the planet to see inside. It's not ideal, but the hole was really ugly, and I guess I can keep it as a kind of hidden fidget of some sort.  I also added a small ring on the outside to kind of look like the ones on saturn. Hopefully it's the right size, but worst case scenario I'll just glue it to the side of one of the planet halves.
+
+Here's the (almost) final case:
+![Screenshot 2026-10-10 230121](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/dFzFUhCcKmaw8Zuhg60Jet6VnSvHw5jp/c2f695970ba381409616e99763e40b493efa56fb20cb14967ab33bb5a5cf6065.png)
+
+And a visual of the hollowed-out inside of one of the halves:
+![Screenshot 2026-10-10 234644](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/dFzFUhCcKmaw8Zuhg60Jet6VnSvHw5jp/3c48fce256e5f6e96a63a05469aa76c5468adac6e872fa8b8f1a8e5339c1c122.png)
+
+The only part I didn't know how to do in onshape was the keychain ring, so I just quickly imported that into blender, made a new torus shape, and put it right on top. Then I exported everything into bambu studio to check that it all looked like it would print okay as  well as to check the size relative to a printer bed.
+
+Well, I had a couple issues.
+1) I had forgotten a hole for the usb cable. For some reason I don't think the PCB will be much fun if it like... can't turn on.
+2) The ring i made in blender actually went way too far in and ended up poking through to the hollowed-out section of the second piece, basically making it impossible to put the pcb in there like I had planned.
+
+On the bright side, the edits were pretty fast. I just added a small channel on top of the planet for the USB cable and re-imported the piece into blender to redo the keychain hook, then back into bambu lab to check on slicing.
+
+I also realized that there was a chance my pcb would end up smaller in thickness than the gap I had made for it, but I've seen people online use these heated inserts to basically take metal threads and melt them into plastic so you can screw things into 3D printed items. The smallest ones I could find on amazon were 3mm wide at their widest point, so I went with that and drilled some holes in my pcb just in case. I figured, if it was indeed way too big, I could go into onshape and make some really thin tubes (kind of like standoffs if anyone else does VEX robotics?). I can put the heated inserts inside, glue one end to one side of the shell, and just screw the pcb in on the other end. That would stop it rattling around. However, editing the PCB again meant redoing the gerber and composition files, so that was fun. At the end of the day, I still managed to make a full case, so even though it'll probably be held together by hope and prayers, at least I did it!
+
+Oh, and here's a photo of where I drilled the PCB holes in:
+
+![Screenshot 2026-10-10 235948](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/dFzFUhCcKmaw8Zuhg60Jet6VnSvHw5jp/29227d4788315490f8587231859403668f4762fdd9c57e7070f6e74c75aea3ba.png)
+
+If I have extra time tomorrow, I want to look into making my own custom animation like the little sparkle animation that they give the code for in the github. I have no hope of actually understanding how everything works before the deadline, but maybe I can animate some sprites or something? The code was in a conditional statement, so either I'll figure out how it works and then do a special effect for an action other than the nap action (which I think is what the sparkle effect is for), or I can just take the sparkle code and leave the conditional,  just changing the code inside it to my own animation. I'll need some googling, but oh well.
+
+Also, to whoever is reviewing this, could you please take out like 10 minutes? The end of one of the clips is me just fixing my github and the start of the other is some onshape log in issues + a short youtube tutorial. Thank you!
 
 [Timelapse](https://lookout.hackclub.com/api/media/592a3bb1-5616-412a-a644-87761065fdf1/video.mp4)
