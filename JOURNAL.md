@@ -10,7 +10,7 @@
 
 | Week | Tier | Hours logged | Entries |
 | --- | --- | --- | --- |
-| Week 1 | Tier 1 | 4.63h | 4 |
+| Week 1 | Tier 1 | 5.15h | 4 |
 
 ## Contents
 
@@ -41,11 +41,11 @@ I read through the Half Life instructions, installed KiCad (as well as all the f
 
 ### 2026-10-10 – I really wanted to finish the design part of this project before the end of the day, and I'm so glad I did!
 
-**0.73h**
+**1.25h**
 
 I really wanted to finish the design part of this project before the end of the day, and I'm so glad I did!
 
-Or at least part of it—I got through the routing, which was the hard part for sure. I was totally stuck on the connections that seemed to be on different layers, until I realized the pcb actually has two main layers, and I just needed to edit the other layer to add that missing connection.  That still didn't fix all my errors though, but I was able to join a Slack call on the #half-life channel for about an hour and that was super helpful (this is the 0.5 hours I logged outside of lapse because I didn't work the whole call but I did do a lot of edits to the pcb as I figured things out)! A very kind community member helped teach me some of the basics of pcbs, so here's a bit of what I learned:
+Or at least part of it—I got through the routing, which was the hard part for sure. I was totally stuck on the connections that seemed to be on different layers, until I realized the pcb actually has two main layers, and I just needed to edit the other layer to add that missing connection.  That still didn't fix all my errors though, but I was able to join a Slack call on the #half-life channel for about an hour and that was super helpfu! A very kind community member helped teach me some of the basics of pcbs, so here's a bit of what I learned:
 
 - A pcb has two sides, a front, and a back. These are the two layers I was seeing in my editor, and you can solder or connect things on both sides.
 - There are two main kinds of pcb parts, through parts and parts that are only on one side of the pcb. Through parts are basically holes in the pcb, so they can connect electrical signals from one side to the other.
@@ -68,6 +68,8 @@ Combining this with what I learned, I understand which parts are through holes, 
 Can't wait to keep going (tomorrow though because I am very tired right now and I need sleep)!
 
 [Timelapse](https://lookout.hackclub.com/api/media/891f1d09-5067-4e2c-829e-cc672b8b894b/video.mp4)
+
+[Timelapse](https://lookout.hackclub.com/api/media/a515edf9-3b47-41e3-accc-d720214dd251/video.mp4)
 
 ### 2026-10-10 – Today I finished all the software for the pcb!
 
