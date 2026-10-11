@@ -88,6 +88,8 @@ After that, it was on to the software section! I was very grateful to discover t
 
 I still need to find a name for the sprite, but that can be a later problem (along with debugging, which I'm sure I'll need to do a lot of). I ended the session by exporting all the extra necessary files from KiCad. I found a video tutorial that showed me how to export the gerber, composition, and BOM files, so I did that and actually found a website where I could test the gerber files to make sure they were accurate (thankfully they were). Then I uploaded it all to my github repository, and that's that! I'm going to look through the docs and see if there's anything else I need to do like a README (mine is maybe a sentence and I have a feeling that's far too short) or if I need to organize things a specific way. I also saw that the repo actually already had a BOM thing that said it synced with half life, so if I could find out how to edit that as well that would be great because I couldn't find a website that could accurately tell me how much the pcb would cost, especially just for one. Best get to work then!
 
+Note: To whoever reviews this, can you please remove about 25 minutes? The first 15 or so is just me hunting down sprites that I later realize I can't even use and I think I watch about 10 minutes worth of youtube tutorials throughout the lapse. Thank you!
+
 [Timelapse](https://lookout.hackclub.com/api/media/51b03666-d65a-4be4-8b6e-28da8014bd7f/video.mp4)
 
 ### 2026-10-11 – The next step after the PCB was to design an awesome case!
