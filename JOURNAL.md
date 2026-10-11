@@ -126,6 +126,6 @@ Oh, and here's a photo of where I drilled the PCB holes in:
 
 If I have extra time tomorrow, I want to look into making my own custom animation like the little sparkle animation that they give the code for in the github. I have no hope of actually understanding how everything works before the deadline, but maybe I can animate some sprites or something? The code was in a conditional statement, so either I'll figure out how it works and then do a special effect for an action other than the nap action (which I think is what the sparkle effect is for), or I can just take the sparkle code and leave the conditional,  just changing the code inside it to my own animation. I'll need some googling, but oh well.
 
-Also, to whoever is reviewing this, could you please take out like 10 minutes? The end of one of the clips is me just fixing my github and the start of the other is some onshape log in issues + a short youtube tutorial. Thank you!
+Also, to whoever is reviewing this, could you please take out like 10 minutes? The end of one of the clips is me just fixing my github and the start of the other is some onshape log in issues + a short youtube tutorial. I'm so sorry to keep doing this, I didn't realize that a) watching videos don't count and b) you can crop your videos after you're done filming them. I promise I'll be way more careful for week 2. Thank you!
 
 [Timelapse](https://lookout.hackclub.com/api/media/592a3bb1-5616-412a-a644-87761065fdf1/video.mp4)
