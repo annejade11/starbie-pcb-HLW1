@@ -16,7 +16,7 @@
 
 1. [2026-10-09 – Today was my first day working on Half Life as I've been really busy recently, but I was very excited to get started!](#2026-10-09-today-was-my-first-day-working-on-half-life-as-iv)
 2. [2026-10-10 – I really wanted to finish this project before the end of the day, and I'm so glad I did!](#2026-10-10-i-really-wanted-to-finish-this-project-before-the)
-3. [2026-10-10 – Work session](#2026-10-10-work-session)
+3. [2026-10-10 – Today I finished all the software for the pcb!](#2026-10-10-today-i-finished-all-the-software-for-the-pcb)
 
 ## Design
 
@@ -68,10 +68,21 @@ Can't wait to keep going (tomorrow though because I am very tired right now and 
 
 [Timelapse](https://lookout.hackclub.com/api/media/891f1d09-5067-4e2c-829e-cc672b8b894b/video.mp4)
 
-### 2026-10-10 – Work session
+### 2026-10-10 – Today I finished all the software for the pcb!
 
 **1.23h**
 
-Work session
+Today I finished all the software for the pcb!
+
+I'm super proud to say that it's all done! I started the session by continuing through the tutorial, which mentioned you could add images to your pcb. I thought that was super cute but didn't realize that the photos needed to be black and white, so I lost a little time on that. Not to worry though, five minutes later I picked out a couple kirby themed stickers and this little planet to add to the front of the pcb. I think it gives my Starbie character (although I mostly did it for the sake of learning how to do it because any extra understanding I can get on how this all works is a positive).
+
+Here's a photo with the stickers:
+![Screenshot 2026-10-10 182508](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/dFzFUhCcKmaw8Zuhg60Jet6VnSvHw5jp/0a245441fbf794f718626f5b6c9c8fdac5d4a71264e58ecb3b8881ba84faf730.png)
+
+After that, it was on to the software section! I was very grateful to discover that most of the code had already been written out because it ended up being somewhere between 400-600 lines of code and there's no way I would have been able to figure it all out by myself, even if I'd had the full week. I downloaded the Arduino IDE for the first time, watched some basic videos while all the packages loaded (which took longer than I thought it would) and then pasted in the code. Following the comments, I didn't really end up changing too much. I did have to edit some of the port numbers as I switched which ports went where on my pcb for easier wiring, but I tried to avoid doing this too much on the main Xiao piece so thankfully it wasn't too bad. I didn't want to just use the code there and call it a day, but I couldn't really understand much of it (mostly lack of syntax knowledge I think although I was relieved to see the syntax was very similar to Processing, a language I've explored more with), so instead I decided to make my own sprite for the pcb! For some reason I decided I needed this thing to have a peacock on it, but I found a reference video online and it wasn't too hard to draw. In fact, I think he (or she) turned out pretty cute.
+
+![Screenshot 2026-10-10 202639](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/dFzFUhCcKmaw8Zuhg60Jet6VnSvHw5jp/08d04e181bb5cb9a6678173cb38b80f45b76853ce242356722fae71473e0c8b0.png)
+
+I still need to find a name for the sprite, but that can be a later problem (along with debugging, which I'm sure I'll need to do a lot of). I ended the session by exporting all the extra necessary files from KiCad. I found a video tutorial that showed me how to export the gerber, composition, and BOM files, so I did that and actually found a website where I could test the gerber files to make sure they were accurate (thankfully they were). Then I uploaded it all to my github repository, and that's that! I'm going to look through the docs and see if there's anything else I need to do like a README (mine is maybe a sentence and I have a feeling that's far too short) or if I need to organize things a specific way. I also saw that the repo actually already had a BOM thing that said it synced with half life, so if I could find out how to edit that as well that would be great because I couldn't find a website that could accurately tell me how much the pcb would cost, especially just for one. Best get to work then!
 
 [Timelapse](https://lookout.hackclub.com/api/media/51b03666-d65a-4be4-8b6e-28da8014bd7f/video.mp4)
