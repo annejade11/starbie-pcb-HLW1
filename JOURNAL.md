@@ -67,6 +67,8 @@ Combining this with what I learned, I understand which parts are through holes, 
 
 Can't wait to keep going (tomorrow though because I am very tired right now and I need sleep)!
 
+To my reviewer: Can you cut out about 10 minutes from the longer timelapse? There's some idle time in there I didn't notice. Thank you so much!
+
 [Timelapse](https://lookout.hackclub.com/api/media/891f1d09-5067-4e2c-829e-cc672b8b894b/video.mp4)
 
 [Timelapse](https://lookout.hackclub.com/api/media/a515edf9-3b47-41e3-accc-d720214dd251/video.mp4)
