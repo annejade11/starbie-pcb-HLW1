@@ -72,4 +72,6 @@ Can't wait to keep going (tomorrow though because I am very tired right now and 
 
 **1.23h**
 
+Work session
+
 [Timelapse](https://lookout.hackclub.com/api/media/51b03666-d65a-4be4-8b6e-28da8014bd7f/video.mp4)
