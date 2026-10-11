@@ -37,6 +37,8 @@ I read through the Half Life instructions, installed KiCad (as well as all the f
 
  The github mentioned something about a GND pour, but I tried that using the provided video tutorial and it didn't seem to work. It also took a really long time to outline since I was making a circle shape, so I switched to a square for easier use. My goal for next time is to figure out how to make the layers and to finish routing my pcb, with a bonus for figuring out how to do it as a circle since my goal is to make a circular pcb that I can encase in a 3D printed shell to make a little planet keychain!
 
+To my reviewer: Can you please cut about 10 minutes? I watched some quick videos and didn't realize those don't count until last minute as I'm reviewing all the requirements. Sorry for the trouble and thanks!
+
 [Timelapse](https://lookout.hackclub.com/api/media/2b375d8b-5f93-404d-958c-a4573b54243b/video.mp4)
 
 ### 2026-10-10 – I really wanted to finish the design part of this project before the end of the day, and I'm so glad I did!
