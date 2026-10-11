@@ -15,7 +15,7 @@
 ## Contents
 
 1. [2026-10-09 – Today was my first day working on Half Life as I've been really busy recently, but I was very excited to get started!](#2026-10-09-today-was-my-first-day-working-on-half-life-as-iv)
-2. [2026-10-10 – I really wanted to finish this project before the end of the day, and I'm so glad I did! Or at least part of it—I got through the routing, which was the hard part for sure. I was totally stuck on the](#2026-10-10-i-really-wanted-to-finish-this-project-before-the)
+2. [2026-10-10 – I really wanted to finish this project before the end of the day, and I'm so glad I did!](#2026-10-10-i-really-wanted-to-finish-this-project-before-the)
 
 ## Design
 
@@ -37,11 +37,13 @@ I read through the Half Life instructions, installed KiCad (as well as all the f
 
 [Timelapse](https://lookout.hackclub.com/api/media/2b375d8b-5f93-404d-958c-a4573b54243b/video.mp4)
 
-### 2026-10-10 – I really wanted to finish this project before the end of the day, and I'm so glad I did! Or at least part of it—I got through the routing, which was the hard part for sure. I was totally stuck on the
+### 2026-10-10 – I really wanted to finish this project before the end of the day, and I'm so glad I did!
 
 **0.73h**
 
-I really wanted to finish this project before the end of the day, and I'm so glad I did! Or at least part of it—I got through the routing, which was the hard part for sure. I was totally stuck on the connections that seemed to be on different layers, until I realized the pcb actually has two main layers, and I just needed to edit the other layer to add that missing connection.  That still didn't fix all my errors though, but I was able to join a Slack call on the #half-life channel for about an hour and that was super helpful (this is the 0.5 hours I logged outside of lapse because I didn't work the whole call but I did do a lot of edits to the pcb as I figured things out)! A very kind community member helped teach me some of the basics of pcbs, so here's a bit of what I learned:
+I really wanted to finish this project before the end of the day, and I'm so glad I did!
+
+Or at least part of it—I got through the routing, which was the hard part for sure. I was totally stuck on the connections that seemed to be on different layers, until I realized the pcb actually has two main layers, and I just needed to edit the other layer to add that missing connection.  That still didn't fix all my errors though, but I was able to join a Slack call on the #half-life channel for about an hour and that was super helpful (this is the 0.5 hours I logged outside of lapse because I didn't work the whole call but I did do a lot of edits to the pcb as I figured things out)! A very kind community member helped teach me some of the basics of pcbs, so here's a bit of what I learned:
 
 - A pcb has two sides, a front, and a back. These are the two layers I was seeing in my editor, and you can solder or connect things on both sides.
 - There are two main kinds of pcb parts, through parts and parts that are only on one side of the pcb. Through parts are basically holes in the pcb, so they can connect electrical signals from one side to the other.
