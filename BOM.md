@@ -18,7 +18,7 @@
 | [10k Resistor](https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT10K0/1830374) | Regulate current | 1 | $0.10 | $0.10 | [DigiKey](https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT10K0/1830374) |
 | [01x08 Pin Header](https://www.digikey.com/en/products/detail/molex/0022288080/314108) | Connect things together | 1 | $0.78 | $0.78 | [DigiKey](https://www.digikey.com/en/products/detail/molex/0022288080/314108) |
 | **Parts subtotal** | — | — | — | **$15.51** | — |
-| **Tax & shipping** | — | — | — | **$19.00** | — |
-| **Total** | — | — | — | **$34.51** | — |
+| **Tax & shipping** | — | — | — | **$8.49** | — |
+| **Total** | — | — | — | **$24.00** | — |
 
-**$4.51 over the tier's funding.** Every tier gives a fixed amount for parts, so this needs cutting back or a higher tier.
+$6.00 left of the tier's funding.
