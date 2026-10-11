@@ -17,7 +17,7 @@
 1. [2026-10-09 – Today was my first day working on Half Life as I've been really busy recently, but I was very excited to get started!](#2026-10-09-today-was-my-first-day-working-on-half-life-as-iv)
 2. [2026-10-10 – I really wanted to finish the design part of this project before the end of the day, and I'm so glad I did!](#2026-10-10-i-really-wanted-to-finish-the-design-part-of-this)
 3. [2026-10-10 – Today I finished all the software for the pcb!](#2026-10-10-today-i-finished-all-the-software-for-the-pcb)
-4. [2026-10-11 – Work session](#2026-10-11-work-session)
+4. [2026-10-11 – The next step after the PCB was to design an awesome case!](#2026-10-11-the-next-step-after-the-pcb-was-to-design-an-awes)
 
 ## Design
 
@@ -88,8 +88,12 @@ I still need to find a name for the sprite, but that can be a later problem (alo
 
 [Timelapse](https://lookout.hackclub.com/api/media/51b03666-d65a-4be4-8b6e-28da8014bd7f/video.mp4)
 
-### 2026-10-11 – Work session
+### 2026-10-11 – The next step after the PCB was to design an awesome case!
 
 **1.07h**
+
+The next step after the PCB was to design an awesome case!
+
+I used onshape to CAD this as it's the only CAD platform I'm familiar with. Honestly, it took less time than I thought it would! I wanted to make a small planet keychain
 
 [Timelapse](https://lookout.hackclub.com/api/media/592a3bb1-5616-412a-a644-87761065fdf1/video.mp4)
