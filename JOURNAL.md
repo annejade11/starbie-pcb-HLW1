@@ -10,7 +10,7 @@
 
 | Week | Tier | Hours logged | Entries |
 | --- | --- | --- | --- |
-| Week 1 | Tier 1 | 6.35h | 5 |
+| Week 1 | Tier 1 | 6.66h | 5 |
 
 ## Contents
 
@@ -99,7 +99,7 @@ Note: To whoever reviews this, can you please remove about 25 minutes? The first
 
 ### 2026-10-11 – The next step after the PCB was to design an awesome case!
 
-**1.07h**
+**1.38h**
 
 The next step after the PCB was to design an awesome case!
 
@@ -130,6 +130,8 @@ If I have extra time tomorrow, I want to look into making my own custom animatio
 Also, to whoever is reviewing this, could you please take out like 10 minutes? The end of one of the clips is me just fixing my github and the start of the other is some onshape log in issues + a short youtube tutorial. I'm so sorry to keep doing this, I didn't realize that a) watching videos don't count and b) you can crop your videos after you're done filming them. I promise I'll be way more careful for week 2. Thank you!
 
 [Timelapse](https://lookout.hackclub.com/api/media/592a3bb1-5616-412a-a644-87761065fdf1/video.mp4)
+
+[Timelapse](https://lookout.hackclub.com/api/media/83d01332-f2b9-446c-a702-ff661a118282/video.mp4)
 
 ### 2026-10-11 – Work session
 
