@@ -17,17 +17,23 @@ Part 1: Hardware
 The first part of building Starbie is designing it. I chose to use KiCad, as that's what's recommended by Half Life and also what the tutorial repo uses. I followed the instructions to design the schematic, which is basically all the components you're going to need labeled with what each output/input is recieving/sending.
 
 Here's what mine looked like:
+
 <img width="707" height="753" alt="Screenshot 2026-10-09 140539" src="https://github.com/user-attachments/assets/9d754e10-65c5-4e57-a34e-bb6fe02c9e61" />
+
 
 The next step in PCB design is routing, which means visually connecting everything so that you know where all the soldering and stuff is going to go. Because the lines can't cross over each other otherwise signals will mix, this step is super important because you're making sure everything can be connected. In my experience with Starbie, I actually had to change the order of ports (as well as the rotation and positioning of components) multiple times because I would end up in a situation where a connection couldn't get from A to B without crossing over a bunch of other connections. I also learned that the board has two sides, so some connections which just couldn't all fit on the front went on the back side of the PCB. I added some cute stickers to the PCB too (as well as some holes for mounting, but this is fully optional I just figured I might want to screw my PCB into a case). 
 
 Here's the final result:
+
 <img width="732" height="604" alt="Screenshot 2026-10-09 140454" src="https://github.com/user-attachments/assets/1405d63a-bc4a-467e-9249-6c0498069717" />
+
+
 The red connections are the front, while that one thick blue line is what I have on the back of the PCB.
 
 KiCad also has a really cool feature where you can see a 3D rendering of your PCB once you've routed it.
 
 <img width="663" height="438" alt="Screenshot 2026-10-09 223958" src="https://github.com/user-attachments/assets/29d1d955-7954-4e8f-954b-4c2e71e46b4d" />
+
 
 Seeing a (kind of) physical rendering of my work was super gratifying.
 
@@ -39,9 +45,11 @@ The first thing I did was make my own sprite. I used a web-based sprite generato
 
 <img width="314" height="317" alt="Screenshot 2026-10-10 202639" src="https://github.com/user-attachments/assets/29e75b24-846f-471f-b19c-2f41a0b7be0c" />
 
+
 Then, because you can't just drag and drop an image into code and say "draw this", I used a link from the tutorial to turn the photo into code. Here's what that looked like when it was done:
 
 <img width="759" height="193" alt="Screenshot 2026-10-11 195814" src="https://github.com/user-attachments/assets/0034f0e3-216c-4e7b-8c12-cb814c004649" />
+
 
 While I can't say I understand how every number works, my impression is that it's instructions that tell the code if each pixel on a 32 x 32 pixel grid is black or white. The screen I'm using can only display one color, which is white, (plus black when it's off), so the code shouldn't need to specify the exact shade of blue or gray for each pixel.
 
@@ -51,8 +59,11 @@ The other thing I wanted to do to customize my code was a small effect. The tuto
 
 <img width="369" height="308" alt="Screenshot 2026-10-11 195756" src="https://github.com/user-attachments/assets/e813436f-f7f3-48ac-bc12-ec84319d1c20" />
 
+
 Also what the bubble looks like for anyone who was curious (the red dot represents 0,0 or the origin):
+
 <img width="160" height="167" alt="Screenshot 2026-10-11 152006" src="https://github.com/user-attachments/assets/013723da-4a9b-42c8-ba7a-f9a063a96f46" />
+
 
 Yay! The code is finally done, and so is the hardware design. Starbie accomplished!
 
@@ -64,13 +75,17 @@ I wanted to add more to this PCB, but I'd reached the end of my expertise code a
 
 <img width="486" height="525" alt="Screenshot 2026-10-10 230121" src="https://github.com/user-attachments/assets/a362e1ff-dc0d-4b87-8216-ee92ffb4f0e1" />
 
+
 However, this planet had a lot of issues. I designed it by hollowing out the inside for the PCB, but because of the curve on the planet and the fact that the screen is... well... decidedly less curved, I couldn't push the display up so that it was flush with the outside of the planet since the display would be attached to the rest of the PCB which would not fit on any of the faces of the planet. This was not ideal, as it meant I had to open the keychain just to see inside it. I decided I did not like this one bit, so it was time for a redesign. I instead made a cheese keychain (another thing I'm passionate about—look, cheese is really good) and because it was a block of cheese I could use the flat sides to make cutouts for the screen and buttons. Here's the final product, with the blue piece being the front and the gray piece being the back:
 
 <img width="711" height="676" alt="Screenshot 2026-10-11 172724" src="https://github.com/user-attachments/assets/e937ccbd-af81-412f-94cd-4e718b2c5bcd" />
 <img width="588" height="591" alt="Screenshot 2026-10-11 164717" src="https://github.com/user-attachments/assets/a52025ab-49cb-4f4a-baba-0b9ebd8be91b" />
 
+
 View of the inside of the blue piece where space for the PCB and usb cable were cut out:
+
 <img width="690" height="703" alt="Screenshot 2026-10-11 163510" src="https://github.com/user-attachments/assets/587c1176-6728-4b48-8c79-9041253fbbed" />
+
 
 And yes, this is where the name "Cheesie" originated from. It's kind of corny, I know, but I still think it's cute. The holes in the back piece also allow for better air circulation which is good because the pcb needs to be able to read the humidity and tempeerature of the air around it (remember how I mentioned the MPU 6050 does that?).
 
@@ -90,6 +105,7 @@ From the digital to the physical:
 The next step is obviously to build the PCB. I'm not doing that until week 5 of the Half Life project (if my project gets approved fingers crossed) so I'll have to get back to you on the actual building part. Still, there's a digital aspect to the building, and that's called the BOM, or the Bill of Materials. In case you didn't get it from the title, the BOM is just a list of all the parts you're going to need, how much they are, and where you're getting them from. Here's mine:
 
 <img width="878" height="629" alt="Screenshot 2026-10-11 203200" src="https://github.com/user-attachments/assets/a1fe75a2-258e-4fd6-8b5c-5529c5adc24b" />
+
 
 A couple things to note about my BOM:
 1) THIS DOES NOT INCLUDE TOOLS. This is just a list of any parts I'd need, there are additional required tools that aren't on here.
