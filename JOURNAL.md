@@ -18,7 +18,7 @@
 2. [2026-10-10 – I really wanted to finish the design part of this project before the end of the day, and I'm so glad I did!](#2026-10-10-i-really-wanted-to-finish-the-design-part-of-this)
 3. [2026-10-10 – Today I finished all the software for the pcb!](#2026-10-10-today-i-finished-all-the-software-for-the-pcb)
 4. [2026-10-11 – The next step after the PCB was to design an awesome case!](#2026-10-11-the-next-step-after-the-pcb-was-to-design-an-awes)
-5. [2026-10-11 – Work session](#2026-10-11-work-session)
+5. [2026-10-11 – Today I redid the planet case and made a cheese themed one instead!](#2026-10-11-today-i-redid-the-planet-case-and-made-a-cheese-t)
 
 ## Design
 
@@ -133,8 +133,31 @@ Also, to whoever is reviewing this, could you please take out like 10 minutes? T
 
 [Timelapse](https://lookout.hackclub.com/api/media/83d01332-f2b9-446c-a702-ff661a118282/video.mp4)
 
-### 2026-10-11 – Work session
+### 2026-10-11 – Today I redid the planet case and made a cheese themed one instead!
 
 **1.2h**
+
+Today I redid the planet case and made a cheese themed one instead!
+
+There were a couple things that just didn't sit right with me on the first case.
+1) I didn't like that you had to open the planet case to see the pcb
+2) I realized that I couldn't actually use the ring that was supposed to make it look like Saturn because then you wouldn't be able to open the case anymore, so it kind of just looked like a sphere.
+3) Starbie works off of sensing outdoor humidity or temperature, and when it's trapped in a case that probably means it won't work as well or at least as accurately.
+
+I knew all of this yesterday but figured I'd come back to it today, and looking at it I was just over it. There were a lot of issues and it was easier to just start again.
+
+I originally wanted to make a small macaron case as they're one of my favorite foods, so I started with that. The benefit of a macaron is that it's only rounded on the edges, leaving a large portion flat. That means I can make a flat cutout for the pcb screen and press the pcb up against it, leaving it visible from the outside of the case. I really wanted to be able to access it from the outside (especially because I was worried  frequently opening and closing the case would eventually wear out the little pins holding it together). Since a macaron has those little bumps along the bottom, I wanted to try to find a way to do that in onshape. I know it can be done in blender, but I don't know how to use it well enough to do that yet, so instead I figured I'd try to learn something new about the platform I was already comfortable with. I spent some time trying to figure out how to make textures, but everything I found was a) complicated and b) very geometric as opposed to the organic, sort of blended-out vibe I was going for. I would basically have to make the texture myself in onshape in another tab and I knew it would take me ages (not to mention a million fillets) to get a texture I was happy with, so I decided not to do it. However, this basically meant my macaron was unrecognizable and I didn't want to end up with another failed case, so it was once again time to change course (this turned out to be really beneficial though so I'm glad it happened). I figured that the half macaron shell I'd already made kind of looked like a round block of cheese, and I love cheese too, so I made that the new case idea. I just put some small circles on the top of the case, and I think it looks really cute! Here's what the hollowed out inside looks like (this time the usb cable slot is on the bottom so it's more hidden and I figured out how to make the keychain hook in onshape with some fillets so I didn't have to deal with exporting to blender):
+
+![Screenshot 2026-10-11 163510](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/dFzFUhCcKmaw8Zuhg60Jet6VnSvHw5jp/84d36d4bf8ff25ce0b5be9723e0ccd2654a785b5b3aeadc9132f06c816d42681.png)
+
+Then I moved on to the back, and I kind of played around with onshape's text feature to give my starbie it's official name: Cheesie! It's not all that creative, I know, but I don't mind either way. I was going to put the same raised circles I did on the front onto the back when I came up with another idea. Instead of indents, I could hollow the circles out. Not only is this closer to real cheese because real cheese has holes, not raised sections, but it would also allow for more aeration and hopefully greater accuracy with the DHT11 (which I believe is the temperature and humidity sensor). Another tiny upgrade was moving the connector pieces in so they weren't on the edge, because I was worried about how well they would hold like that. Overall, I'm really glad I changed my design. The new one is more accurate, easier to use, easier and smaller to print, and more recognizable. Here's what the back and front look like:
+
+Note: The blue piece is the front of the shell and the gray piece is the back. The extra holes in the front shell are for the key switches.
+
+![Screenshot 2026-10-11 163510](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/dFzFUhCcKmaw8Zuhg60Jet6VnSvHw5jp/84d36d4bf8ff25ce0b5be9723e0ccd2654a785b5b3aeadc9132f06c816d42681.png)
+
+![Screenshot 2026-10-11 164717](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/dFzFUhCcKmaw8Zuhg60Jet6VnSvHw5jp/98b42e97126dd6b5dda08e062309817c6397d28dc06d6557015838adc57b5c22.png)
+
+Even if I don't have time to build this, I learned a lot about PCB and software design and the starbie tutorial was super helpful, so I'm very happy I did it!
 
 [Timelapse](https://lookout.hackclub.com/api/media/a4a38786-605a-46e0-a189-866c85ac1904/video.mp4)
